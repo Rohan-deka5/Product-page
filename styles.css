@@ -1,0 +1,192 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(gyt.jpg);
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #c56817; /*Lighter Orange Background*/
+  color: #fff; /* White text */
+  padding: 1em;
+  text-align: center;
+  font-family: cursive;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+header:hover {
+  background-color: #c9c90d; /* Darker gray background on hover */
+  transition: background-color 0.5s; /* Smooth background color transition */
+}
+
+/* Navigation Styles */
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center navigation items */
+}
+
+nav li {
+  margin-right: 25px;
+}
+
+nav a {
+  color: #790101; /* White text */
+  text-decoration: none;
+  transition: color 0.5s; /* Smooth text color transition */
+  font-weight: 100;
+  font-size: larger;
+}
+
+nav a:hover {
+  color: #00901d; /* Light gray text on hover */
+}
+
+/* Main Content Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+h1 {
+  font-family: "Spicy Rice", serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #c39500; /* Dark gray text */
+}
+
+h1:hover{
+  color: aqua;
+  transition: background-color 0.5s;
+}
+
+/* Form Styles */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #00a73a; /* Light gray border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+label {
+  margin-bottom: 10px; /* Add some margin between labels and inputs */
+  color: #1a88ac;
+  font-size: larger;
+  font-family: "Berkshire Swash", serif;
+  display: inline-block;
+  margin-right: 10px
+  
+}
+
+p{
+  color: #1a88ac;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full-width inputs */
+}
+
+input[type="submit"] {
+  background-color: #4CAF50; /* Green background */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to a pointing hand */
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41; /* Darker green background on hover */
+  transition: background-color 0.5s; /* Smooth background color transition */
+}
+
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px; /* You can adjust the spacing */
+}
+
+/* Product List and Item Styles */
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 22%;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-item h2 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.product-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+.product-item button {
+  background-color: #0277bd;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.product-item button:hover {
+  background-color: #01579b;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 30px;
+  color: #555;
+  text-align: center;
+}
