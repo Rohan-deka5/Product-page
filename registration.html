@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Login</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="registration.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Registration form will go here -->
+        <h1>Register</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <div>
+                <label for="Male">Male</label>
+                <input type="radio" id="sex1" name="Gender" value="Male">
+                <label for="Female">Female</label>
+                <input type="radio" id="sex2" name="Gender" value="Female">
+            </div>
+            <label for="Address">Address</label>
+            <textarea type="text" id="Address" name="Address"></textarea><br><br>
+            <label for="Country">Country</label>
+            <select>
+                <option value="" disabled selected>Select a state</option>
+                        <option value="AP">India</option>
+                        <option value="KA">Bangladesh</option>
+                        <option value="MH">Nepal</option>
+                        <option value="MH">Japan</option>
+                </option>
+            </select>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Register">
+        </form>
+        <p>Have a account? <a href="index.html">Login here</a></p>
+    </main>
+    <footer>
+        <p id="txt"></p>
+        <script>
+            var today = new Date();
+            document.getElementById('txt').innerHTML = today;
+        </script>
+    </footer>
+</body>
+</html>
