@@ -160,6 +160,12 @@ input[type="radio"] {
   border-radius: 8px;
 }
 
+.product-item:hover {
+  transform: translateY(-10px);
+  transition: transform 0.5s;
+}
+
+
 .product-item h2 {
   margin: 10px 0;
   font-size: 1.2em;
@@ -190,3 +196,4 @@ footer {
   color: #555;
   text-align: center;
 }
+
