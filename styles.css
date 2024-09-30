@@ -197,3 +197,28 @@ footer {
   text-align: center;
 }
 
+/*Menu styles*/
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.menu-item a:hover {
+  background-color: #337ab7;
+  color: #04296c;
+}
