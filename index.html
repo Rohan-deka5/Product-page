@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Login</a></li>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="login.html">Login</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="registration.html">Register</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <!-- Login form will go here -->
-        <h1>Login</h1>
-        <form>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username"><br><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password"><br><br>
-            <input type="submit" value="Login">
-        </form>
-        <p>Don't Have a account? <a href="registration.html">Register here</a></p>
+        <h1>Home Page</h1>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <a href="index.html">
+                    <h2>Login</h2>
+                    <p>Login to your account</p>
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="products.html">
+                    <h2>Products</h2>
+                    <p>Browse our products</p>
+                </a>
+            </div>
+            <div class="menu-item">
+                <a href="registration.html">
+                    <h2>Register</h2>
+                    <p>Create a new account</p>
+                </a>
+            </div>
+            <!-- Add more menu items as needed -->
+        </div>
     </main>
     <footer>
         <p id="txt"></p>
